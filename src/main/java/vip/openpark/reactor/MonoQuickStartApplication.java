@@ -1,4 +1,4 @@
-package vip.openpark.reactor.mono;
+package vip.openpark.reactor;
 
 import reactor.core.publisher.Mono;
 

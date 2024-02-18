@@ -1,4 +1,4 @@
-package vip.openpark.reactor.flux;
+package vip.openpark.reactor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Subscription;
@@ -13,7 +13,7 @@ import java.time.Duration;
  * @version 2024/2/17 13:36
  */
 @Slf4j
-public class FluxEventApplication {
+public class EventApplication {
 	public static void main(String[] args) throws InterruptedException {
 		// 正常操作
 		// normal();

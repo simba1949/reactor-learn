@@ -1,4 +1,4 @@
-package vip.openpark.reactor.flux.custom;
+package vip.openpark.reactor.custom;
 
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Subscription;

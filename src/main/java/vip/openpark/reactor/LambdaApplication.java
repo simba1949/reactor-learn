@@ -1,4 +1,4 @@
-package vip.openpark.reactor.flux;
+package vip.openpark.reactor;
 
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;
@@ -10,7 +10,7 @@ import reactor.core.publisher.Flux;
  * @version 2024/2/17 15:28
  */
 @Slf4j
-public class FluxLambdaApplication {
+public class LambdaApplication {
 	public static void main(String[] args) {
 		Flux<String> flux =
 			Flux

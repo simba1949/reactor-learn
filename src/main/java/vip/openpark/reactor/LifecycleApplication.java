@@ -1,4 +1,4 @@
-package vip.openpark.reactor.flux;
+package vip.openpark.reactor;
 
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Subscription;
@@ -15,7 +15,7 @@ import java.time.Duration;
  * @version 2024/2/17 16:08
  */
 @Slf4j
-public class FluxLifecycleApplication {
+public class LifecycleApplication {
 	public static void main(String[] args) {
 		Flux<Integer> flux =
 			Flux.range(0, 20)

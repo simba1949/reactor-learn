@@ -1,4 +1,4 @@
-package vip.openpark.reactor.flux;
+package vip.openpark.reactor;
 
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;

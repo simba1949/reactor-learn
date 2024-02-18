@@ -1,4 +1,4 @@
-package vip.openpark.reactor.flux;
+package vip.openpark.reactor;
 
 import reactor.core.publisher.Flux;
 
@@ -8,7 +8,7 @@ import reactor.core.publisher.Flux;
  * @author anthony
  * @version 2024/2/17 14:45
  */
-public class FluxConcatAndLogApplication {
+public class ConcatAndLogApplication {
 	public static void main(String[] args) {
 		Flux.concat(Flux.just(1, 2, 3), Flux.just(4, 5, 6))
 			.log() // 响应式打印日志，只是对上游的操作进行打印
